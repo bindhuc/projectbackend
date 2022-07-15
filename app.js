@@ -5,6 +5,9 @@ const app = express()
 
 
 app.use(cors())
+app.use('/',function(req,res){
+    res.send("fun")
+})
 app.use('/api',detailsrouter2)
 
 
