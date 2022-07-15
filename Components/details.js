@@ -21,4 +21,4 @@ const get = (req,res)=>{
     }])
 }
 
-module.exports.apicontroller =get;
+module.exports.get =get;
